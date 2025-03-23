@@ -26,7 +26,7 @@ const FindUs = () => (
       </button>
     </div>
     <div className="app__wrapper_img">
-      <img src={images.findus} />
+      <img src={images.findus} alt="Restaurant location and ambiance" />
     </div>
   </div>
 );

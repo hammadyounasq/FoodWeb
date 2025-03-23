@@ -44,7 +44,7 @@ const Gallery = () => {
               className="app__gallery-image_card flex__center"
               key={`gallery_image-${index + 1}`}
             >
-              <img src={image} />
+              <img src={image} alt={`Restaurant gallery image ${index + 1}`} />
               <BsInstagram className="gallery__image-icon" />
             </div>
           ))}

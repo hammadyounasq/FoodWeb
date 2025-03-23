@@ -6,14 +6,14 @@ import { SubHeading } from "../../components";
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={images.chef} />
+      <img src={images.chef} alt="Restaurant chef portrait" />
     </div>
     <div className="app__wrapper_info">
       <SubHeading tittle="Chef’s Word" />
       <h1 className="headtext__cormorant">What we believe in</h1>
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
-          <img src={images.quote} />
+          <img src={images.quote} alt="Decorative quote mark" />
           <p className="p__opensans">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
           </p>
@@ -27,7 +27,7 @@ const Chef = () => (
       <div className="app__chef-sign">
         <p>Kevin Luo</p>
         <p className="p__opensans">Chef & Founder</p>
-        <img src={images.sign} />
+        <img src={images.sign} alt="Chef's signature" />
       </div>
     </div>
   </div>

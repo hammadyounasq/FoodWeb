@@ -7,7 +7,7 @@ import { SubHeading } from "../../components";
 function AwardCard({ award: { imgUrl, title, subtitle } }) {
   return (
     <div className="app__laurels_award-card">
-      <img src={imgUrl} />
+      <img src={imgUrl} alt={`${title} award`} />
       <div className="app__laurels_awards-card_content">
         <p className="p__cormorant" style={{ color: "#DCCA87" }}>
           {title}
@@ -31,7 +31,7 @@ const Laurels = () => (
       </div>
     </div>
     <div className="app__wrapper_img">
-      <img src={images.laurels} />
+      <img src={images.laurels} alt="Restaurant laurels and awards" />
     </div>
   </div>
 );
